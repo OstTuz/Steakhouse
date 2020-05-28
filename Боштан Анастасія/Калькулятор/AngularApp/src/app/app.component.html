@@ -1,0 +1,10 @@
+<div class = title >Calculator</div> 
+    <input type="number" name="value1" [(ngModel)]="value1">
+    <input type="number" name="value2" [(ngModel)]="value2">
+    <br><br>
+      <button (click)="calculateSuma()">+</button>
+      <button (click)="calculateMinus()">-</button> 
+      <button (click)="calculateDivide()">/</button>  
+      <button (click)="calculateMultiply()">*</button>   
+  <h3>Result= {{result}}</h3>
+<router-outlet></router-outlet>
