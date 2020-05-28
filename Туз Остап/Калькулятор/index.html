@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="calculate.js"></script>
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <h1 class="header">Калькулятор</h1>
+    <div class="main">
+      <p class="input-value" id="left-value"></p>
+      <p class="input-sign" id="sign">+</p>
+      <p class="input-value" id="right-value"></p>
+      <p class="input-sign" id="equals-sign">=</p>
+      <p class="input-value" id="result"></p>
+        <div class="numbers">
+          <button type="button" name="one" onclick="printInForm(1)">1</button>
+          <button type="button" name="two" onclick="printInForm(2)">2</button>
+          <button type="button" name="three" onclick="printInForm(3)">3</button>
+          <br>
+          <button type="button" name="four" onclick="printInForm(4)">4</button>
+          <button type="button" name="five" onclick="printInForm(5)">5</button>
+          <button type="button" name="six" onclick="printInForm(6)">6</button>
+          <br>
+          <button type="button" name="seven" onclick="printInForm(7)">7</button>
+          <button type="button" name="eight" onclick="printInForm(8)">8</button>
+          <button type="button" name="nine" onclick="printInForm(9)">9</button>
+          <br>
+          <button id="zero" class="wide-button" type="button" name="zero" onclick="printInForm(0)">0</button>
+          <button type="button" name="point" onclick="printInForm('.')">.</button>
+        </div>
+
+        <div class="actions">
+          <button  class="wide-button" type="button" name="clean" onclick="clean()">C</button>
+          <br>
+          <button id="plus" type="button" name="plus" onclick="printInForm('+')">+</button>
+          <button id="minus" type="button" name="minus" onclick="printInForm('-')">-</button>
+          <br>
+          <button id="multiply" type="button" name="multiply" onclick="printInForm('x')">x</button>
+          <button id="divide" type="button" name="divide" onclick="printInForm('/')">/</button>
+          <br>
+          <button id="equals" class="wide-button" type="button" name="equals" onclick="calculateForm()">=</button>
+        </div>
+    </div>
+  </body>
+</html>

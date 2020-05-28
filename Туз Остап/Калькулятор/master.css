@@ -1,0 +1,104 @@
+body
+{
+  background-color: lightgreen;
+}
+
+.header{
+  margin-left: 41%;
+}
+
+.main
+{
+  background-color: grey;
+  width: 30%;
+  height: 400px;
+  margin-left: 33%;
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+
+.input-value
+{
+  background-color: lightgrey;
+  color: black;
+  width: 90px;
+  height: 50px;
+  border-radius: 40px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+#left-value{
+  margin-left: 4%;
+  margin-top: 12%;
+}
+
+#right-value{
+  margin-left: 41%;
+  margin-top: -23%;
+}
+
+#result{
+  margin-left: 76%;
+  margin-top: -23%;
+}
+.input-sign
+{
+  color: black;
+  width: 50px;
+  height: 50px;
+  margin-left: 28%;
+  margin-top: -17%;
+  border-radius: 40px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 25pt;
+}
+
+#equals-sign{
+  margin-left: 64%;
+}
+
+input:focus{
+        outline: none;
+    }
+
+button
+{
+  width: 50px;
+  height: 50px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  font-size: 14pt;
+  font-style: oblique;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.numbers
+{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.wide-button
+{
+  width: 120px;
+}
+button:focus
+{
+  outline:0;
+}
+
+.actions
+{
+  margin-left: 250px;
+  margin-top: -227px;
+}
+
+#equals
+{
+  margin-top: 15px;
+  height: 80px;
+}
