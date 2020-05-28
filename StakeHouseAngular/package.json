@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "StakeHouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "Angular",
+    "Component"
+  ],
+  "author": "Ostap Tuz, Anastasiya Boshtan",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+  background-color: #1f181a;
+  background-image: url('C:/Users/Настя Боштан/Desktop/Project/StakeHouseApp/src/photos/thirdbg.jpg');
+  background-repeat: no-repeat;
+  background-size: 1550px 657px;
+  background-blend-mode:soft-light;
+  background-attachment:scroll;
+}
